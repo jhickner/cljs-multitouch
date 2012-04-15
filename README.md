@@ -23,7 +23,7 @@ Step 2.) Add a tag to your HTML to load the plugin:
 <object id="tuio" type="application/x-tuio">Plugin FAILED to load</object>
 ```
 
-Step 3.) Add cljs-multitouch to your project.clj and then run ``lein deps```.
+Step 3.) Add cljs-multitouch to your project.clj and then run ```lein deps```.
 
 ```clojure
 [cljs-multitouch "1.0"]
