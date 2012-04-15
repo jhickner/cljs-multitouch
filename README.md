@@ -9,7 +9,7 @@ cljs-multitouch is an interface to the [npTuioClient](https://github.com/fajran/
 
 The plugin expects a [TUIO](http://www.tuio.org/) server at the standard port (localhost:3333). Almost all touchscreens have a way of exposing their touch data over this protocol. We normally use screens from [PQ Labs](http://multi-touch-screen.com/) which have a TUIO server built into the driver software.
 
-On page load the plugin connects to the TIUO server and routes incoming TUIO data to cljs-multicouch, which converts it into standard browser touch events (touchstart, touchmove, touchend). 
+On page load the plugin connects to the TUIO server and routes incoming data to cljs-multitouch, which converts it into standard browser touch events (touchstart, touchmove, touchend). 
 
 
 ## Usage
