@@ -24,11 +24,15 @@ Step 2.) Add a tag to your HTML to load the plugin:
 ```
 
 Step 3.) Add cljs-multitouch to your project.clj
-```[cljs-multitouch "1.0"]```
+
+```clojure
+[cljs-multitouch "1.0"]
+```
 
 
 Step 4.) In your clojurescript app:
-```clojurescript
+
+```clojure
 (ns my-awesome-touchscreen-app
   (:require [cljs-multitouch.core :as multitouch]))
 
