@@ -41,7 +41,7 @@
       4 (create-event "touchmove" data)
       5 (do
           (.splice *touches* (.indexOf *touches* data) 1)
-          (js-delete *touch-lookup* key)
+          (js-delete *touch-lookup* sid)
           (create-event "touchend" data)))))
 
 (defn init 
